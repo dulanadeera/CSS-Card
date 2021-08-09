@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: white;
+    width: 270px;
+    height: 400px;
+    margin: 10px;
+}
+
+.card-image{
+    height: 170px;
+    background-color: teal;
+    background-size: cover;
+    margin-bottom: 15px;
+}
+
+.car-1{
+    background-image: url('./car1.jpg');
+}
+.car-2{
+    background-image: url('./car2.jpg');
+}
+.car-3{
+    background-image: url('./car3.jpg');
+}
+
+.card a{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+}
+
+.card:hover{
+    background-color: rgb(62, 62, 62);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: 0.5s;
+}
